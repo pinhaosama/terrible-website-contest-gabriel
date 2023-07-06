@@ -13,30 +13,16 @@ function tiny(){var a="-webkit-",b='transform:scale(5%);',c='transition:2s;';doc
 function roll(){var a="-webkit-",b='transform:rotate(1turn);',c='transition:600s;';document.head.innerHTML+='<style>body{'+a+b+a+c+b+c}
 
 document.addEventListener('keydown', function(event) {
-    var delta = 1; // Number of pixels to move
-  
-    if (event.key === 'ArrowLeft') {
-      window.scrollBy(-delta, 0);
-      event.preventDefault();
-    } else if (event.key === 'ArrowUp') {
-      window.scrollBy(0, -delta);
-      event.preventDefault();
-    } else if (event.key === 'ArrowRight') {
-      window.scrollBy(delta, 0);
-      event.preventDefault();
-    } else if (event.key === 'ArrowDown') {
-      window.scrollBy(0, delta);
-      event.preventDefault();
-    }
-  });
-
-  var audio = document.getElementById('music');
-  var playButton = document.getElementById('plei');
-  
-  playButton.addEventListener('click', function() {
-    if (audio.paused) {
-      audio.play();
-    } else {
-      audio.pause();
-    }
-  });
+    var delta = 1;
+  if (event.key === 'ArrowLeft') {
+window.scrollBy(-delta, 0);
+event.preventDefault();
+} else if (event.key === 'ArrowUp') {
+window.scrollBy(0, -delta);
+event.preventDefault();
+} else if (event.key === 'ArrowRight') {
+window.scrollBy(delta, 0);
+  event.preventDefault();
+} else if (event.key === 'ArrowDown') {
+window.scrollBy(0, delta);
+  event.preventDefault();}});

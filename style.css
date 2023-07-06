@@ -1,4 +1,4 @@
-* {margin:0;padding:0;box-sizing: border-box;font-family:papyrus;font-weight: 900;}
+* {margin:0;padding:0;box-sizing: border-box;font-family:papyrus;font-weight: 900;overflow: hidden;}
 p{color: var(--np); font-size: x-large;}
 body{display: flex;justify-content: center;background: linear-gradient(315deg, red 3%, blue 38%, green 68%, yellow 98%);animation: gradient 3s infinite;background-size: 400% 400%;background-attachment: fixed; width: 3000px;height: 3000px;}
 :root{--ny:#DFFF00;--np:#FF1493;--nc:#0FF0FC;}
