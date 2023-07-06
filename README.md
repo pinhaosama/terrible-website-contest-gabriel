@@ -1,2 +1,2 @@
 # terrible-website-contest-gabriel
-exemple of a terrible website
+really really bad website
