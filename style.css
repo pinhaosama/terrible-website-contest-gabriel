@@ -11,9 +11,10 @@ body{display: flex;justify-content: center;background: linear-gradient(315deg, r
 #cornify{height: 100vh; position: absolute; left: 0;}
 #nav{margin-bottom: 20px;margin-left: 10px;}
 .velha{background: linear-gradient(315deg, yellow 3%, green 38%, blue 68%, red 98%);animation: gradient 3s infinite;background-size: 400% 400%;background-attachment: fixed;width: fit-content;height: fit-content;margin-top: 5%;padding: 30px;margin-left: 178px;}
-.popup{position: fixed;right: 20px;bottom: 20px;height: 200px;width: 200px;background: linear-gradient(315deg, red 3%, blue 38%, green 68%, yellow 98%);animation: gradient 3s infinite;background-size: 400% 400%;background-attachment: fixed;}
-#clos{position: fixed; height: 20px;width: 20px;background-color: red;transform: translateX(140px) translateY(-10px);margin-left: 50px;}
+.popup{border: 5px solid black; position: fixed;right: 20px;bottom: 20px;height: 200px;width: 200px;background: linear-gradient(315deg, red 3%, blue 38%, green 68%, yellow 98%);animation: gradient 3s infinite;background-size: 400% 400%;background-attachment: fixed;}
+#clos{position: fixed; height: 20px;width: 20px;background-color: red;transform: translateX(130px) translateY(-10px);margin-left: 50px;}
 #clos:hover{animation: clos 0.5s forwards;}#clos:not(:hover){animation: solc 0.5s ease-in-out alternate both;}
 @keyframes clos{0%{transform: 0;}100%{transform: translateY(-10px)translateX(250px);}}@keyframes solc{100%{transform: 0;}0%{transform: translateY(-10px)translateX(250px);}}
 #plei{position: absolute;left: 180px;top: 10px;height: 50px;width: 50px;}
 #vol{height: 50px;width: 50px;}
+#ee {text-decoration: none;}
